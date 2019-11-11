@@ -16,6 +16,12 @@ body {
   display: none;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .container {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -73,6 +79,20 @@ body {
 .header .flex {
   display: flex;
   justify-content: flex-end;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .header-content {
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 1.5rem 4rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -234,6 +254,12 @@ body {
 
 .footer img {
   height: 1.5rem;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .footer .content {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
